@@ -11,8 +11,4 @@ export class User {
   bankName: string;
   accountNo: number;
   ifscCode: string;
-  
- 
-
-
 }
