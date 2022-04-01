@@ -16,31 +16,12 @@ import { ProductsComponent } from './products/products.component';
 import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    redirectTo: 'indexLink',
-    pathMatch: 'full',
-  },
-  {
-    path: 'indexLink',
-    component: IndexComponent,
-  },
-  {
-    path: 'registerLink',
-    component: RegisterComponent,
-  },
-  {
-    path: 'loginLink',
-    component: LoginComponent,
-  },
-  {
-    path: 'changepassLink',
-    component: ChangepasswordComponent,
-  },
-  {
-    path: 'forgotpassLink',
-    component: ForgotpasswordComponent,
-  },
+  {path: '',redirectTo: 'indexLink',pathMatch: 'full',},
+  {path: 'indexLink',component: IndexComponent,},
+  {path: 'registerLink',component: RegisterComponent,},
+  {path: 'loginLink',component: LoginComponent,},
+  {path: 'changepassLink',component: ChangepasswordComponent,},
+  {path: 'forgotpassLink',component: ForgotpasswordComponent,},
   {path:'products',component:ProductsComponent},
   {path:'productdetails',component:ProductdetailsComponent},
   {path:'userdashboard',component:DashboardComponent},
