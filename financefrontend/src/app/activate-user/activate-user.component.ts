@@ -28,11 +28,7 @@ export class ActivateUserComponent implements OnInit {
  
     this.adservice.getAllCards().subscribe((data:any) =>{
       console.log(data);
-      this.cards=data;
-      
- 
-  
-      
+      this.cards=data;  
     }
     );
   }
